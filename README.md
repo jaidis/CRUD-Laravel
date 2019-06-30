@@ -1,8 +1,8 @@
-#InfyOm CRUD Laravel 5.5
+# InfyOm CRUD Laravel 5.5
 
 ---
 
-#Pasos previos
+## Pasos previos
 
 Instalar y actualizar las librerías con composer
 
@@ -19,9 +19,11 @@ Generar la Key de la aplicación y migrar la base de datos
 ```bash
 php artisan key:generate
 ```
+
 ```bash
 php artisan migrate:install
 ```
+
 ```bash
 php artisan migrate
 ```
@@ -44,11 +46,14 @@ Por último, iniciar el framework
 php artisan serve
 ```
 
-#Datos de acceso
+---
+
+## Datos de acceso
 
 Para acceder al CRUD es necesario visitar la URL [http://testing06.megasur.es/home](http://testing06.megasur.es/home)
 
 Los datos del usuario son:
 
-Email: aa@bb.com
-Contraseña: asdf123
+- Email: aa@bb.com
+
+- Contraseña: asdf123
